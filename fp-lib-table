@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "librecube_pcb_template")(type "KiCad")(uri "${KIPRJMOD}/librecube_pcb_template.pretty")(options "")(descr ""))
+  (lib (name "satnogs-comms-lib")(type "KiCad")(uri "${KIPRJMOD}/satnogs-comms-lib.pretty")(options "")(descr ""))
+  (lib (name "replacementLibs")(type "KiCad")(uri "${KIPRJMOD}/replacementLibs")(options "")(descr ""))
+  (lib (name "MISC")(type "KiCad")(uri "${KIPRJMOD}/replacementLibs/MISC.pretty")(options "")(descr ""))
+  (lib (name "SF2446E")(type "KiCad")(uri "${KIPRJMOD}/replacementLibs/SF2446E")(options "")(descr ""))
+)

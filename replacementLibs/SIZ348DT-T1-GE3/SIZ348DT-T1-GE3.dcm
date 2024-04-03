@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIZ348DT-T1-GE3
+D MOSFET 30V Vds 20V Vgs PowerPAIR 3 x 3
+K
+F https://www.vishay.com/docs/62877/siz340dt.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ASPI-0530HI-2R2M-T2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-03-13:29:22)
+    (mountForm default
+        (footprintRef "INDPM5652X300N")
+        (spec "System")
+    )
+)

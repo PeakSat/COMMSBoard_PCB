@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASPI-0520LR-2R2M-T2
+D 2.2UH, 5.0A, 5.5A, IRON CORE, +/-20%, SHIELDED, 36.0M?, 5.6 X 5.2 X 2.0MM, SURFACE MOUNT
+K
+F https://abracon.com/Magnetics/power/ASPI-0520LR.pdf
+$ENDCMP
+#
+#End Doc Library

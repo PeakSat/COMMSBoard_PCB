@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PAT0510S-C-7DB-T10
+D Attenuators 7dB 50ohm
+K
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition16_en.pdf
+$ENDCMP
+#
+#End Doc Library

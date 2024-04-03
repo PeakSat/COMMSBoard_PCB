@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASPI-0530HI-2R2M-T2
+D 2.2 H Shielded Molded Inductor 5.5 A 35mOhm Max Nonstandard
+K
+F https://abracon.com/Magnetics/power/ASPI-0530HI.pdf
+$ENDCMP
+#
+#End Doc Library

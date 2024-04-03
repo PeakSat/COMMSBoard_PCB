@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BPJC-252R+")(type "Legacy")(uri "${KIPRJMOD}/replacementLibs/bpj/BPJC-252R+.lib")(options "")(descr ""))
+  (lib (name "FI105B245024-T")(type "Legacy")(uri "${KIPRJMOD}/replacementLibs/FI105/FI105B245024-T.lib")(options "")(descr ""))
+  (lib (name "RPL-3.0-CT")(type "Legacy")(uri "${KIPRJMOD}/replacementLibs/RPL/RPL-3.0-CT.lib")(options "")(descr ""))
+  (lib (name "SIZ348DT-T1-GE3")(type "Legacy")(uri "${KIPRJMOD}/replacementLibs/SIZ348DT-T1-GE3/SIZ348DT-T1-GE3.lib")(options "")(descr ""))
+  (lib (name "SKY66397-12")(type "Legacy")(uri "${KIPRJMOD}/replacementLibs/sky/SKY66397-12.lib")(options "")(descr ""))
+  (lib (name "SQJB90EP-T1_GE3")(type "Legacy")(uri "${KIPRJMOD}/replacementLibs/SQJB90EP-T1_GE3/SQJB90EP-T1_GE3.lib")(options "")(descr ""))
+  (lib (name "LFCG-2500+")(type "Legacy")(uri "${KIPRJMOD}/replacementLibs/LFCG-2500+/LFCG-2500+.lib")(options "")(descr ""))
+  (lib (name "MISC")(type "KiCad")(uri "${KIPRJMOD}/replacementLibs/MISC.kicad_sym")(options "")(descr ""))
+  (lib (name "SF2446E")(type "Legacy")(uri "${KIPRJMOD}/replacementLibs/SF2446E/SF2446E.lib")(options "")(descr ""))
+)

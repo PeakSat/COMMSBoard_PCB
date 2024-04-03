@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RPL-3.0-CT
+D 3.0 Amp DC/DC Converter, 10 Pad LGA Package
+K
+F https://recom-power.com/pdf/Innoline/RPL-3.0.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,16 @@
+.ASPI-0530HI-2R2M-T2 :1 ;2.2 H Shielded Molded Inductor 5.5 A 35mOhm Max Nonstandard
+INDPM5652X300N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ASPI-0530HI-2R2M-T2
+~!Mouser Part Number (815-ASPI0530HI2R2MT2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ASPI-0530HI-2R2M-T2?qs=bWAYEm3xoCbWzF7ky072%2FA%3D%3D)
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ASPI-0530HI-2R2M-T2)
+~!Link Datasheet (https://abracon.com/Magnetics/power/ASPI-0530HI.pdf)
+~!Height (3mm)
+~!3D_Model (ASPI-0530HI-2R2M-T2)
+ASPI-0530HI-2R2M-T2
+1.1!U 2.1!U 

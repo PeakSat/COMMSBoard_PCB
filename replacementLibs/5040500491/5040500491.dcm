@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5040500491
+D 1.50mm Pitch, Pico-Lock PCB Header, Single Row, Right-Angle, Surface Mount, Gold (Au) Plating, Positive Lock, 4 Circuits, Tape and Reel
+K
+F https://www.molex.com/pdm_docs/sd/5040500291_sd.pdf
+$ENDCMP
+#
+#End Doc Library

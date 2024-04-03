@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "INDPM5652X300N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "INDPM5652X300N")
+        (spec "default")
+    )
+)

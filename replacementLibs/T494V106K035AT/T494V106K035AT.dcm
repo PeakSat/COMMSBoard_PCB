@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP T494V106K035AT
+D T494, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 10%, 35 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, Low Profile, Low ESR, 6 % , 800 mOhms, 3500 nA, 286.4 mg, 7343, 1.8mm, Height Max = 2mm, 1000, 156  Weeks
+K
+F https://content.kemet.com/datasheets/KEM_T2008_T494.pdf
+$ENDCMP
+#
+#End Doc Library
