@@ -5406,7 +5406,7 @@
     (property "Value" "ECS-TXO-2520-33-120-AN-TR" (at 43.18 63.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ECS-TXO-2520-33-120-AN-TR:OSC_ECS-TXO-2520-33-120-AN-TR" (at 43.18 72.39 0)
+    (property "Footprint" "ECS-TXO:OSC_ECS-TXO-2520-33-120-AN-TR" (at 43.18 72.39 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 43.18 72.39 0)

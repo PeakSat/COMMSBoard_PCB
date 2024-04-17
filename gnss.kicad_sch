@@ -1128,7 +1128,7 @@
     (property "Value" "PMV28XPEAR" (at 151.13 161.29 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT95P230X110-3N" (at 49.86 157.48 0)
+    (property "Footprint" "PMV28XPEAR:SOT95P230X110-3N" (at 49.86 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV28XPEA.pdf" (at -50.14 157.48 0)
