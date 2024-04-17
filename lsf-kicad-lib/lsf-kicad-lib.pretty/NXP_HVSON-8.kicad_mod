@@ -1,0 +1,333 @@
+(footprint "NXP_HVSON-8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.nxp.com/docs/en/data-sheet/BGA6130.pdf")
+	(tags "HVSON")
+	(property "Reference" "REF**"
+		(at 0 2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9142c5f9-de67-4270-ab2c-d6bf64666451")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NXP_HVSON-8"
+		(at 0 -2.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f5763e8-b623-40d4-ab9c-74b7d2705ec6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed1808a1-09ed-4126-b93b-860a3e913373")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7ddb3f2-8f3c-4325-a7d8-556663e19953")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87512313-2213-4adf-b999-2c0282a3e5e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -1.6)
+		(end -1 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "039c72fd-b712-438b-93fe-e3eeec36f0c8")
+	)
+	(fp_line
+		(start -1.65 -1)
+		(end -1.65 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "205715b3-37ae-4602-90a0-76d4e5d90c6e")
+	)
+	(fp_line
+		(start -1.65 1.55)
+		(end -1 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e804719-b2a0-4307-975a-03bb77254b06")
+	)
+	(fp_line
+		(start 0.975 -1.6)
+		(end 1.625 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09c3a261-64cb-42f0-a3a1-6cc520911103")
+	)
+	(fp_line
+		(start 0.975 1.55)
+		(end 1.625 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "552a20ee-21a7-4d7e-beb1-8bc0a19515aa")
+	)
+	(fp_rect
+		(start -1.9 -1.7)
+		(end 1.9 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a8c2f093-edf4-4944-92c8-7fa11505a990")
+	)
+	(fp_line
+		(start -1.8 -1)
+		(end -1.8 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1707489c-4d0d-4305-9a3a-cf7f77a6ab89")
+	)
+	(fp_line
+		(start -1.8 -1)
+		(end -1.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be771bde-2ad5-43f9-adbd-60fc4b0fb693")
+	)
+	(fp_line
+		(start -1.8 1)
+		(end -1.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c065eea-7fa4-4e7e-88e6-ab1de78b7e9b")
+	)
+	(fp_line
+		(start -1.625 -1.55)
+		(end 1.625 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "999a2917-dfc3-404d-918e-195d7d6faf36")
+	)
+	(fp_line
+		(start -1.625 -1)
+		(end -1.625 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f51ecf8e-1e0c-4a93-8383-e81d34a941de")
+	)
+	(fp_line
+		(start -1.625 1)
+		(end -1.625 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b99c4445-8574-41eb-a92d-6df4515f1a67")
+	)
+	(fp_line
+		(start 1.625 -1)
+		(end 1.625 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "032274f0-0cbc-4df0-be43-bc3db566c439")
+	)
+	(fp_line
+		(start 1.625 1)
+		(end 1.625 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ea6c4f3-96c7-4ad6-8fa1-d84666adbb0a")
+	)
+	(fp_line
+		(start 1.625 1.55)
+		(end -1.625 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d65402f7-955d-433c-8951-339f1d3ae237")
+	)
+	(fp_line
+		(start 1.8 -1)
+		(end 1.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e926c356-b873-438e-9e33-d317279075ed")
+	)
+	(fp_line
+		(start 1.8 1)
+		(end 1.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84445b15-1da9-4f26-a85f-935b8f751cb1")
+	)
+	(fp_line
+		(start 1.8 1)
+		(end 1.8 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd60e364-4af2-45ac-b16c-ab98efb08cf1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80444816-0a83-421d-b5cc-f3f687f47190")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd trapezoid
+		(at 0 0 270)
+		(size 1.1 0.65)
+		(layers "F.Paste")
+		(uuid "32a1f460-fda8-46d5-b3ed-fd7eae9f20cf")
+	)
+	(pad "1" smd trapezoid
+		(at -1.425 -0.75 270)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0bb950a7-f292-48d6-988b-ecabf5f4512c")
+	)
+	(pad "2" smd trapezoid
+		(at -1.425 -0.25 270)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2f78113e-7ae2-4a73-be19-49105fd486e8")
+	)
+	(pad "3" smd trapezoid
+		(at -1.425 0.25 270)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "647e343f-6a84-41bf-b6e3-52eba9c3bd28")
+	)
+	(pad "4" smd trapezoid
+		(at -1.425 0.75 270)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b2857a2-d683-4014-a6c4-3bf513ac825d")
+	)
+	(pad "5" smd trapezoid
+		(at 1.425 0.75 90)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c15a13b8-f3ce-4894-8f3b-e3756b0c1a62")
+	)
+	(pad "6" smd trapezoid
+		(at 1.425 0.25 90)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2062ddae-094b-4bec-839f-6043207fa95a")
+	)
+	(pad "7" smd trapezoid
+		(at 1.425 -0.25 90)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d8c93288-36a6-48c0-b540-a4224e31c3e2")
+	)
+	(pad "8" smd trapezoid
+		(at 1.425 -0.75 90)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "768ae064-9470-4452-8a93-bff753aa040f")
+	)
+	(pad "9" smd trapezoid
+		(at 0 0 270)
+		(size 2.45 1.65)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f4ee88ba-94b3-46fa-b56f-3372d821f956")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/NXP_HVSON-8.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

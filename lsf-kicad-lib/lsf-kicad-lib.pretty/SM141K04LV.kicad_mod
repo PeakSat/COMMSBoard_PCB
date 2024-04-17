@@ -1,0 +1,223 @@
+(footprint "SM141K04LV"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IXOLAR High Efficiency SolarMD, http://ixapps.ixys.com/DataSheet/SM141K04LV.pdf")
+	(tags "PV solar panel")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "03ac409b-5b13-4aae-8d88-8e0fb569a322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM141K04LV"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e2233801-71ea-4e4e-a717-fc578ea7f994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5dc577d-1f71-4519-84d1-9af33637a87c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06b0e441-f86b-4742-9cb3-da13ecb1911f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79d7f1e6-5923-41ce-a5b6-17afd8578e42")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -22.5 -7.5)
+		(end 22.5 -7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d16a21da-e4dc-414a-ab0e-0e1a86baf2f5")
+	)
+	(fp_line
+		(start -22.5 7.5)
+		(end -22.5 -7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb311d94-56ea-4efb-8602-28523777352a")
+	)
+	(fp_line
+		(start 22.5 -7.5)
+		(end 22.5 7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0053364-d416-4f6f-917f-ef7afa047887")
+	)
+	(fp_line
+		(start 22.5 7.5)
+		(end -22.5 7.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc4696b3-bf2c-4231-9401-e77b5bd8c607")
+	)
+	(fp_line
+		(start -22.75 -7.75)
+		(end 22.75 -7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5113677-c0b6-4805-b015-1a537198ad49")
+	)
+	(fp_line
+		(start -22.75 7.75)
+		(end -22.75 -7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b506a21-0b08-4d3b-ae45-821ba76708b0")
+	)
+	(fp_line
+		(start 22.75 -7.75)
+		(end 22.75 7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25c42d20-1cad-4a3e-ab19-65af68056aa0")
+	)
+	(fp_line
+		(start 22.75 7.75)
+		(end -22.75 7.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd0a5243-ac3e-44f1-917b-618116b0106c")
+	)
+	(fp_line
+		(start -22.5 -7.5)
+		(end -22.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d1d69cc-552e-451a-ada2-329e7b6215a1")
+	)
+	(fp_line
+		(start -22.5 7.5)
+		(end 22.5 7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "404ab685-5c56-4b1b-82c8-a0c07e85589d")
+	)
+	(fp_line
+		(start 22.5 -7.5)
+		(end -22.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5c47ca94-880d-4ed9-b9d0-1c9e1782fa39")
+	)
+	(fp_line
+		(start 22.5 7.5)
+		(end 22.5 -7.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4f12c47-1d4c-4a2b-888e-8827966d8a2c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "67fbeadf-c683-445d-8eb9-b846c45eef98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -19.5 0)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7502031-79c7-44dc-893f-4fd2714efbf2")
+	)
+	(pad "2" smd circle
+		(at 19.5 0)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2b67262c-6f0e-44ec-829e-34b61af212dc")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/SM141K04LV.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

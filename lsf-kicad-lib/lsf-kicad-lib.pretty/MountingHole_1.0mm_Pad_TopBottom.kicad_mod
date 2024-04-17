@@ -1,0 +1,130 @@
+(footprint "MountingHole_1.0mm_Pad_TopBottom"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1mm Mounting Hole")
+	(tags "Mounting hole")
+	(property "Reference" "REF**"
+		(at 0 -2.08 0)
+		(layer "F.SilkS")
+		(uuid "f66169ad-7645-4f26-9e00-444c562ec086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_1.0mm_Pad_TopBottom"
+		(at 0 1.99 0)
+		(layer "F.Fab")
+		(uuid "ca1be27e-ac37-478e-8f79-6f13f393879a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4699c85c-1298-430a-b715-b199a7422622")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba9d3a2f-ed6a-4f02-b18f-c9bfe4ffdf6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00cf4dc9-73b8-4dc5-b88c-9d26c7fa5fcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "6dca3228-5b7c-4397-a5e2-d9a5ebd941fb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c00b5731-c44b-4cb5-84a3-8553a5543473")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3d95586e-f15e-43ad-a4a8-ad9b92ba1b83")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "98699c13-acdf-4fac-bf98-2723776a278f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a91e606-d3df-4ccc-b833-6154074bb02b")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/MountingHole_1.0mm_Pad_TopBottom.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

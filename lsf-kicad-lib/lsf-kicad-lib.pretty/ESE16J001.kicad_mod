@@ -1,0 +1,209 @@
+(footprint "ESE16J001"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1VR Detector Switches;https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/826")
+	(tags "switch")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3a4bfc82-bccd-447a-98e5-dcbcc4f288eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESE16J001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "728c4cce-3b86-4792-a765-69747332882c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5d18fff-77f7-4007-9d27-abfa1844db76")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d36c2b8f-1f49-409c-af45-3ec211f1cea2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7f78286-4262-4567-8d9b-02cb3080f01d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -1.2)
+		(end -1.7 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d4d1e66-d007-4031-8148-1fa16b03a310")
+	)
+	(fp_line
+		(start -1.7 1.2)
+		(end -1.2 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fec7c9ac-39de-41fe-9ff2-44605908e9ea")
+	)
+	(fp_line
+		(start -1.2 -1.2)
+		(end -1.7 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f973e830-7468-45c9-be66-8d1de7907a6d")
+	)
+	(fp_line
+		(start 1.7 -1.2)
+		(end 1.2 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b32cbd76-66ff-4e68-a7bf-d04d6e29bf5e")
+	)
+	(fp_line
+		(start 1.7 -1.2)
+		(end 1.7 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecdc7185-6b44-4deb-80ba-24846728736f")
+	)
+	(fp_line
+		(start 1.7 1.2)
+		(end 1.2 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72740d82-20c3-4793-9837-591c0c144206")
+	)
+	(fp_circle
+		(center -2 -1.4)
+		(end -2 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "74adef91-7e8b-4c08-b248-4042a72864d6")
+	)
+	(fp_rect
+		(start -1.8 -1.5)
+		(end 1.8 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2eb334c2-23bc-43d6-85bb-ea7c8131dd68")
+	)
+	(fp_rect
+		(start -1.675 -1.1)
+		(end 1.675 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6ba6dca5-7fa7-41d8-b001-2e1fe1368254")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "268e315a-747c-4c14-9ed6-cde79114477f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 -1.25)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "818ff7b3-520f-4a1f-b0b4-7b5e85aaff8d")
+	)
+	(pad "2" smd rect
+		(at 0.7 -1.25)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "24a5e4d8-5a1e-4aa3-8869-ee03969772a7")
+	)
+	(pad "3" smd rect
+		(at -0.7 1.25)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "be212627-7667-4f99-96b9-e5c1a36fd03a")
+	)
+	(pad "4" smd rect
+		(at 0.7 1.25)
+		(size 0.7 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "747ca632-a1a4-4da3-9b07-c0c96c2c2c07")
+	)
+	(model "lsf-kicad-lib.3dshapes/ESE16J001.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

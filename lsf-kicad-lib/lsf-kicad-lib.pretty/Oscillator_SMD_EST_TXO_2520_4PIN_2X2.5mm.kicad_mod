@@ -1,0 +1,188 @@
+(footprint "Oscillator_SMD_EST_TXO_2520_4PIN_2X2.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "The sub miniature  SMD HCMOS TCXO")
+	(tags "TCXO 4-pin")
+	(property "Reference" "REF**"
+		(at 0.03 -2.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0739b70c-3339-45d7-8a45-0821d5e2748c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_EST_TXO_2520_4PIN_2X2.5mm"
+		(at 0.42 2.72 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5561d679-c855-4803-88a3-fef2c4c0fe64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f7b823b-78ba-475c-84a6-ad68a2a14e12")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17482c75-833b-4692-9023-c919b1230ecc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fafc399-919e-48d8-9c21-6e779dc02ade")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d190e4d0-6886-4ec4-9e32-1cf7fd5c50d8")
+	)
+	(fp_line
+		(start -1.7 1.02)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05e5a9a1-e096-48c6-8445-73a4e8069f23")
+	)
+	(fp_line
+		(start -1.7 1.02)
+		(end -1.24 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f33ad42-df70-494e-be8e-32ff78176dc8")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cf41db5-75f1-4e31-961a-60ec391e6571")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end -1.22 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32718dbb-f07c-46fd-b1aa-043ffbe27706")
+	)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1a521180-118e-4136-a0c8-41cb2924ef07")
+	)
+	(fp_rect
+		(start 1.7 -1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "84a999af-0021-42d0-90ef-70cce90b30da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.04 0.11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "30a2e38e-fb0a-4375-abb9-727e6262c82d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd trapezoid
+		(at -0.925 0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ec99fc86-0e9a-4075-8162-59cddfdf832b")
+	)
+	(pad "2" smd trapezoid
+		(at 0.925 0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a222b58a-5a99-49fe-9cb2-ef7227684852")
+	)
+	(pad "3" smd trapezoid
+		(at 0.925 -0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "97672c19-464b-416f-8cfe-47f9859f22c3")
+	)
+	(pad "4" smd trapezoid
+		(at -0.925 -0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f136e638-c4f0-4d0e-af01-8b16b63a608e")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/Oscillator_SMD_EST_TXO_2520_4PIN_2X2.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

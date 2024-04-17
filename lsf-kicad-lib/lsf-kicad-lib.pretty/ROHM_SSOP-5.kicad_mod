@@ -1,0 +1,208 @@
+(footprint "ROHM_SSOP-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "5-Pin SSOP Package from ROHM")
+	(tags "ROHM SSOP")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "28410861-cac0-4138-b146-20963b216217")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ROHM_SSOP-5"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "30cf2e70-4092-4c64-ab99-1347ea947165")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cdf5a6e-2e16-4721-83c0-c8af2fb14f9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71fdfcea-2c21-4b95-8338-fcfc4f8c7004")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "878c61ec-90cb-487d-9d24-48f4f7768a45")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 1.4)
+		(end 1.1 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c6400d5-2609-4482-9246-8084a9b022b5")
+	)
+	(fp_line
+		(start 1.1 -1.4)
+		(end -1.7 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b32d145a-ed6d-4519-a7ba-14fc7088ba04")
+	)
+	(fp_rect
+		(start -1.8 -1.5)
+		(end 1.8 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f895c4f2-66fd-40ad-a206-73acc62ce81b")
+	)
+	(fp_line
+		(start -1.05 -0.5)
+		(end -0.35 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bc2a777-df89-43e2-98e1-0895d2f8a00b")
+	)
+	(fp_line
+		(start -1.05 1.4)
+		(end -1.05 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb380b45-ad8f-4645-b7f9-e95fe8f81b5b")
+	)
+	(fp_line
+		(start -0.35 -1.2)
+		(end 1 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "728d16bb-3b08-44d2-96ce-c7471efadc38")
+	)
+	(fp_line
+		(start 1 -1.2)
+		(end 1 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dbb887f-ec67-4dfa-ab33-4540148a00f6")
+	)
+	(fp_line
+		(start 1 1.4)
+		(end -1.05 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4832158-6edb-4915-9817-bf0534f24c76")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -0.65 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e2fca15-ab45-4568-ae59-43172d1f6a9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.2 -0.95 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "0cb2454c-78bd-43b8-932b-01caade27e4b")
+	)
+	(pad "2" smd roundrect
+		(at -1.2 0 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "6ffe16a6-fb78-4c05-9351-56e25bd133d6")
+	)
+	(pad "3" smd roundrect
+		(at -1.2 0.95 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a1e3430e-72e0-4032-9ac1-c702574a5f81")
+	)
+	(pad "4" smd roundrect
+		(at 1.2 0.95 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "eaad9445-2e79-46b5-b936-39a3fc46dfbf")
+	)
+	(pad "5" smd roundrect
+		(at 1.2 -0.95 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "eefcdcb2-c77d-4a71-b076-563536fff434")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/ROHM_SSOP-5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,161 @@
+(footprint "LOGO-Built_in_HSGR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Built in hackerspace.gr logo")
+	(tags "LOGO hackerspace HSGR")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "98bff6b6-054f-4a44-a305-9f4fb20084df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LOGO-Built_in_HSGR"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9228af8d-747b-49f6-a3f9-b61d0bcf8931")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "644ee62e-2d6d-4ca4-88f0-e6f29f7e441d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "037a766a-147c-4c48-83b8-29e12fa2831a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f0a106d-8a22-4ea2-8757-7ddbea94121f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start -6 -3)
+		(end 0 -6)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddd11e4d-746f-43f4-aa59-089def891eaf")
+	)
+	(fp_line
+		(start -4 3)
+		(end -4 -4)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a927ea33-0862-4937-a29f-cfbdb8de039c")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end -1 -1)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70e870c4-420a-43fb-8c34-3ac3cc72457b")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -2.5 0)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e321b114-06b0-4d16-9fd9-88becc48c139")
+	)
+	(fp_line
+		(start 0 -6)
+		(end 6 -3)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c084026-7ca9-4d1f-9b78-5adbfc292e34")
+	)
+	(fp_line
+		(start 0 1)
+		(end 2.5 1)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06bd7536-6a21-4c33-9557-3edddf71ca0a")
+	)
+	(fp_line
+		(start 4 3)
+		(end 4 -4)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80bd9431-9c71-4869-a8e1-5e3bf58b023c")
+	)
+	(fp_text user "Built in"
+		(at 0 -7.5 0)
+		(layer "F.SilkS")
+		(uuid "2f66fb6e-6046-412f-8104-907fd19b8d70")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "hackerspace.gr"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "8b12df72-8e93-42db-b007-33907ec8c4ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

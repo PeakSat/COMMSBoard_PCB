@@ -1,0 +1,212 @@
+(footprint "SM3838-8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8-Terminal Ceramic Surface-Mount Case")
+	(tags "SAW Filter")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "58c90cbe-31d6-4ce2-a620-e5db0a4ecb13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM3838-8"
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "03e76e2f-b6f8-46a6-bf87-9e7e8d35a439")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e61ecd9-b671-4891-b544-841559d28279")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b7bd17b-5484-4e54-bdc5-b5c0f441e592")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccb65374-8a72-4b57-a83f-eddd8b0dd75e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 -1.95)
+		(end -2.4 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc111111-28aa-48da-ab12-7846a8dfddba")
+	)
+	(fp_line
+		(start -0.9 1.9)
+		(end -2.2 1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f91c380-a9af-4aa9-95ae-93dbd188624b")
+	)
+	(fp_line
+		(start -0.7 -1.95)
+		(end -2.4 -1.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62d69a87-21b7-4d20-aec9-622f864f4aa3")
+	)
+	(fp_line
+		(start 0.9 -1.9)
+		(end 2.2 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cbdf8c7-5007-4711-bee8-8f943922dd06")
+	)
+	(fp_line
+		(start 0.9 1.9)
+		(end 2.2 1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1213d645-b571-4e3f-b2d3-ccbab884a9a3")
+	)
+	(fp_rect
+		(start -2.4 -2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "85c58029-c579-40cc-b04d-47652e468baf")
+	)
+	(fp_rect
+		(start -2.3 -1.8)
+		(end 2.3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "94918899-0ec3-441f-960b-3fd0143961ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "85e9a0b7-d00e-4840-a210-98f548e487e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd trapezoid
+		(at -1.54 -1.27)
+		(size 1.4 0.74)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "15981fdd-692e-45df-b517-fef0cd534f70")
+	)
+	(pad "2" smd trapezoid
+		(at -1.54 0)
+		(size 1.4 0.74)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4dbf67c9-9ea8-41bb-bda6-e721554108f9")
+	)
+	(pad "3" smd trapezoid
+		(at -1.54 1.27)
+		(size 1.4 0.74)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fbe397c6-6a71-46d7-b1c2-63abd0f9fe00")
+	)
+	(pad "4" smd trapezoid
+		(at 0 1.54 90)
+		(size 1.4 0.74)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7927026-fbb4-42b2-9c4e-29803c85bf73")
+	)
+	(pad "5" smd trapezoid
+		(at 1.54 1.27 180)
+		(size 1.4 0.74)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7ef230cf-d91f-4004-a3d5-57d6127510a6")
+	)
+	(pad "6" smd trapezoid
+		(at 1.54 0 180)
+		(size 1.4 0.74)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85265b4e-1a0b-4b86-a6b9-50619a74c1b1")
+	)
+	(pad "7" smd trapezoid
+		(at 1.54 -1.27 180)
+		(size 1.4 0.74)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d09b0998-6d0c-4835-b130-5b5c3d344610")
+	)
+	(pad "8" smd trapezoid
+		(at 0 -1.1)
+		(size 0.74 2.29)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ce29218a-856e-4501-bea9-68dd1a038a63")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/SM3838-8.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

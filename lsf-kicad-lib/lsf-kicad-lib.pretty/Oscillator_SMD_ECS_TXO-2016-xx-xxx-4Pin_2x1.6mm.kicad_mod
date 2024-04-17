@@ -1,0 +1,243 @@
+(footprint "Oscillator_SMD_ECS_TXO-2016-xx-xxx-4Pin_2x1.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr " 2.0 x 1.6 x 0.8 mm ceramic package")
+	(tags "TCXO 4-pin")
+	(property "Reference" "REF**"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "b85869fd-3f8d-422a-b5de-7f57eb714581")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_SMD_ECS_TXO-2016-xx-xxx-4Pin_2x1.6mm"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "e11de650-11c5-484b-80b7-ba63fe8368c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9558df0b-2671-4282-beaa-0c2f78527e03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3378da47-c58e-4531-af12-13a99b5f8cfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "878e5b80-0655-4a3b-8fa1-fda8a67d7738")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.35 -0.75)
+		(end -0.55 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4fd135f0-38be-402a-9bc7-59f09498eddd")
+	)
+	(fp_line
+		(start -1.35 1.55)
+		(end -1.35 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c505fae-f86b-4b4e-b3b1-bc8caf13434c")
+	)
+	(fp_line
+		(start -0.55 -1.55)
+		(end 1.35 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "366b4e95-01fd-42ef-a705-8f901032e0c6")
+	)
+	(fp_line
+		(start 1.35 -1.55)
+		(end 1.35 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b70ee907-cf21-473a-a117-f0e6125e9266")
+	)
+	(fp_line
+		(start 1.35 1.55)
+		(end -1.35 1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cad4e114-9203-4328-8dcf-7351fcdffc49")
+	)
+	(fp_line
+		(start -1.1 -1.3)
+		(end 1.1 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fffe3434-641a-4c4b-ba3e-1b5c572968fb")
+	)
+	(fp_line
+		(start -1.1 1.3)
+		(end -1.1 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9873d4e8-f130-477c-a049-12b4d89a71a9")
+	)
+	(fp_line
+		(start 1.1 -1.3)
+		(end 1.1 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f0d7c37-b4d0-43a6-97dc-e87abc2138a9")
+	)
+	(fp_line
+		(start 1.1 1.3)
+		(end -1.1 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d479655-f2fd-4e9d-a47d-36d6f43651e4")
+	)
+	(fp_line
+		(start -1.3 -1.5)
+		(end 1.3 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a28edf0a-2d60-4a00-99ab-2b8ee5ecec0f")
+	)
+	(fp_line
+		(start -1.3 1.45)
+		(end -1.3 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f945c6a8-73eb-4b86-bc81-a51c4cae9f7e")
+	)
+	(fp_line
+		(start 1.3 -1.5)
+		(end 1.3 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fa165bc-1cbc-4e30-a7f1-86a9722acefc")
+	)
+	(fp_line
+		(start 1.3 1.45)
+		(end -1.3 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98431e52-cda3-49a2-8321-cc1b0505f1ba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ce7cb119-1df8-42ef-b2f2-2dae443be651")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.5 -0.65 270)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "774ad50e-b079-42dc-98f1-1bd73c95a1b0")
+	)
+	(pad "2" smd rect
+		(at -0.5 0.65 270)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3c130d64-9137-4c65-8366-1112524f50cc")
+	)
+	(pad "3" smd rect
+		(at 0.5 0.65 270)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "878113aa-0285-4794-ba20-d5189f5521ea")
+	)
+	(pad "4" smd rect
+		(at 0.5 -0.65 270)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b0c02527-2836-4e82-9d17-5de6f1a2009d")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/Oscillator_SMD_ECS_TXO-2016-xx-xxx-4Pin_2x1.6mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

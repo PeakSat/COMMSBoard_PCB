@@ -1,0 +1,168 @@
+(footprint "SW_SPST_TD4700BQ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Footprint of TD4700BQ detector switch")
+	(tags "TD4700BQ Detector Switch")
+	(property "Reference" "REF**"
+		(at 0 -2.85 0)
+		(layer "F.SilkS")
+		(uuid "f6d1c4ad-9650-4eee-bbf7-658b6cbc5541")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPST_TD4700BQ"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(uuid "175757ca-6728-4b29-b8b6-59aecbab7d6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abc5c2fb-8b87-4bd4-8eba-afdf4343c98a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.e-switch.com/wp-content/uploads/2024/02/TD4700.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "800922f9-ed80-4c81-820c-a5725673c714")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1cd8aa4-7f5d-4c89-8a9c-06bbc6efba20")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.75 -2.05)
+		(end 1.75 2.05)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3516a4cf-49b6-44be-86fe-24a37ee9ebfe")
+	)
+	(fp_rect
+		(start -1.8 -2.1)
+		(end 1.75 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a5d1bea8-2440-49b4-a072-7856b21627cd")
+	)
+	(fp_rect
+		(start -1.65 -1.8)
+		(end 1.65 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e56263d9-187a-492a-9365-96d97b0708e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 0 0)
+		(layer "F.Fab")
+		(uuid "bcbdd150-e269-4455-8b35-0fa23dd840ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -0.85 0 270)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "84434928-a713-456c-8ab0-c4ff2799059f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.85 0 270)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0da23c36-0156-41c9-bcca-064c65c14699")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 -1.4276 270)
+		(size 0.75 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "5bd31245-7309-4c76-a2d1-f1e6db172da2")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 1.43 270)
+		(size 0.75 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "26d35b46-20f6-4be8-b2a8-a761df08a6ce")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 -1.4276 270)
+		(size 0.75 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ca10d924-12b5-4053-bf5e-e85046d41151")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 1.43 270)
+		(size 0.75 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2c427579-f94d-4cbb-9e3f-0cb8a9d4933f")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/SW_SPST_TD4700BQ.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

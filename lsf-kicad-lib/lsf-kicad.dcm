@@ -1,0 +1,879 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8318
+D 1MHz to 8 GHz, 70 dB Logarithmic Detector/Controller, QFN-16
+K RF Logarithmic Detector/Controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD8318.pdf
+$ENDCMP
+#
+$CMP ADL5330
+D 10 MHz to 3 GHz VGA with 60 dB Gain Control Range, LFCSP-24
+K VGA
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADL5330.pdf
+$ENDCMP
+#
+$CMP ADT7420
+D ±0.25°C Accurate, 16-Bit Digital I2C Temperature Sensor
+K Temperature Sensor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adt7420.pdf
+$ENDCMP
+#
+$CMP AFS24420S4
+D SAW Filter, 2442MHz, 78MHz Bandwidth, 50Ohm, DCC6
+K SAW Filter
+F https://abracon.com/Filters/SAW%20FILTERS/AFS2442.0S4.pdf
+$ENDCMP
+#
+$CMP AFS434S3
+D SAW Filter, 434MHz, 4MHz Bandwidth, 50Ohm, DCC6
+K SAW Filter
+F https://abracon.com/Filters/SAW%20FILTERS/AFS434S3.pdf
+$ENDCMP
+#
+$CMP AS5601
+D 12-Bit Programmable Contactless Encoder
+K Position Sensor Encoder
+F https://ams.com/as5601#tab/features
+$ENDCMP
+#
+$CMP AT86RF215
+D Sub-1GHz/2.4GHz Transceiver and I/Q Radio for IEEE Std 802.15.4-2015 IEEE Std 802.15.4g-2012 ETSI TS 102 887-1
+K RF, Transceiver, 802.15.4, ETSI TS 102 887-1, I/Q
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42415-WIRELESS-AT86RF215_Datasheet.pdf
+$ENDCMP
+#
+$CMP AX5043
+D RF Tranceiver
+K RF
+F https://www.onsemi.com/pub/Collateral/AX5043-D.PDF
+$ENDCMP
+#
+$CMP Arduino_Pro_Mini_328
+D Arduino Board with Atmega328P
+K Arduino  Atmega328P
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf
+$ENDCMP
+#
+$CMP BFCN-2491+
+D LTCC Band Pass Filter, 1950 - 3190 MHz, 50Ohm, FV1206-7
+K Bandpass Filter
+F https://www.minicircuits.com/pdfs/BFCN-2491+.pdf
+$ENDCMP
+#
+$CMP BFTC-500+
+D LTCC Band Pass Filter, 400 - 600 MHz, 50Ohm, FR933-1
+K Bandpass Filter
+F https://www.minicircuits.com/pdfs/BFTC-500+.pdf
+$ENDCMP
+#
+$CMP BMX055
+D 9-axis sensor module
+K IMU 9-DOF
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmx055-ds000.pdf
+$ENDCMP
+#
+$CMP BP0805A2160ASTR-100
+D Bandpass Filter, 1960-2360MHz, 50 Ohm, 0805
+K Bandpass Filter
+F http://datasheets.avx.com/AVX-BP0805-ITF-Filter.pdf
+$ENDCMP
+#
+$CMP CC1120
+D High-Performance RF Transceiver for Narrowband Systems
+K RF transceiver
+F http://www.ti.com/lit/ds/symlink/cc1120.pdf
+$ENDCMP
+#
+$CMP DART-4460
+D ARM Cortex A9 Module
+K ARM A9
+F https://www.variscite.com/products/system-on-module-som/cortex-a9/dart-4460-cpu-ti-omap-4-omap4460/#documantation
+$ENDCMP
+#
+$CMP DBP433TA30
+D Bandpass Filter, Fc: 433MHz BW: 10MHz, 50 Ohm, 10x7.5x3.7mm
+K Bandpass Filter
+F https://www.taoglas.com/product/dbp-433-t-30-dielectric-band-pass-filter-433mhz/
+$ENDCMP
+#
+$CMP DEA142450BT-3028A1
+D Bandpass Filter, 2400-2500MHz, 50 Ohm, 1.4x1.1mm
+K Bandpass Filter
+F https://product.tdk.com/info/en/documents/data_sheet/rf_bpf_dea142450bt-3028a1_en.pdf
+$ENDCMP
+#
+$CMP D_ESD
+D ESD protection diode
+K ESD, surge, diode
+F ~
+$ENDCMP
+#
+$CMP D_SiPM_MicroFC
+D Silicon photomultiplier
+K SiPM MPPC SPAD photon counting
+F ~
+$ENDCMP
+#
+$CMP ECS-TXO-2016
+D Sub miniature SMD CMOS TCXO
+K TCXO, CMOS, SMD
+F https://ecsxtal.com/store/pdf/ECS-TXO-2016.pdf
+$ENDCMP
+#
+$CMP F2972
+D RF Switch, 5MHz to 10GHz, High Linearity, Broadband, SP2T, +3.3V or +5.0V, NEG12
+K RF Switch, SP2T, SPDT
+F https://www.idt.com/document/dst/f2972-datasheet
+$ENDCMP
+#
+$CMP FDN537N
+D 6.5A Id, 30V Vds,  Single N-Channel Power Trench MOSFET , 23mOhm Ron, -55 to 150 °C
+K Power MOSFET N-MOS
+F https://www.onsemi.com/pub/Collateral/FDN537N-D.pdf
+$ENDCMP
+#
+$CMP FDS4559
+D 4.5A Id, 60V Vds, Dual N and P Channel MOSFET, 55mOhm Ron, 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4559.pdf
+$ENDCMP
+#
+$CMP FDS4897AC
+D 6.1A Id, 40V Vds, Dual N and P Channel MOSFET, 26mOhm Ron, 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4897AC.pdf
+$ENDCMP
+#
+$CMP FDS4897C
+D 6.2A Id, 40V Vds, Dual N and P Channel MOSFET, 29mOhm Ron, 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS4897C.pdf
+$ENDCMP
+#
+$CMP FDS8960C
+D 7A Id, 35V Vds, Dual N and P Channel MOSFET, 24mOhm Ron, 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS8960C.pdf
+$ENDCMP
+#
+$CMP FDS9934C
+D 6.5A Id, 20V Vds, Dual N and P Channel MOSFET, 30mOhm Ron, 4.5V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDS9934C.pdf
+$ENDCMP
+#
+$CMP FPF2700
+D Adjustable overcurrent protection load switch 0.4-2.0A
+K Load switch
+F https://www.fairchildsemi.com/datasheets/FP/FPF2701.pdf
+$ENDCMP
+#
+$CMP FPF2701
+D Adjustable overcurrent protection load switch 0.4-2.0A
+K Load switch
+F https://www.fairchildsemi.com/datasheets/FP/FPF2701.pdf
+$ENDCMP
+#
+$CMP FPF2702
+D Adjustable overcurrent protection load switch 0.4-2.0A
+K Load switch
+F https://www.fairchildsemi.com/datasheets/FP/FPF2701.pdf
+$ENDCMP
+#
+$CMP IRF7343PBF
+D 4A Id, 55V Vds, Dual HEXFET MOSFET, SO-8
+K Dual HEXFET N-Channel P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
+$ENDCMP
+#
+$CMP IRPS5401M
+D 4A multi output power management unit
+K DCDC, PMIC, switching
+F https://www.infineon.com/dgdl/Infineon-IRPS5401M-DataSheet-v02_04-EN.pdf?fileId=5546d4625cc9456a015cd69d402139db
+$ENDCMP
+#
+$CMP KT1612A
+D Temperature Compensated Crystal Oscillators
+K TCXOVCTCXO
+F https://global.kyocera.com/prdct/electro/product/pdf/kt1612_e.pdf
+$ENDCMP
+#
+$CMP LFCG-1400+
+D Low Pass Filter, DC to 1400MHz, 50 Ohm, GE0805C-2
+K low pass filter
+F https://www.minicircuits.com/pdfs/LFCG-1400+.pdf
+$ENDCMP
+#
+$CMP LFCG-2250+
+D Low Pass Filter, DC to 2250MHz, 50 Ohm, GE0805C-2
+K low pass filter
+F https://www.minicircuits.com/pdfs/LFCG-2250+.pdf
+$ENDCMP
+#
+$CMP LFCG-490+
+D Low Pass Filter, DC to 490MHz, 50 Ohm, GE0805C-2
+K low pass filter
+F https://www.minicircuits.com/pdfs/LFCG-490+.pdf
+$ENDCMP
+#
+$CMP LM3150MH
+D LM3150Wide-VINSynchronousBuck Controller
+K DC-DC CONTROLLER, BUCK, 1MHZ, HTSSOP-14; Primary Input Voltage: 42V; No. of Outpu
+F http://www.ti.com/lit/ds/snvs561g/snvs561g.pdf
+$ENDCMP
+#
+$CMP LP0805A2150ASTR
+D Low Pass Filter, DC to 2150MHz, 50 Ohm, 0805
+K low pass filter
+F https://datasheet.octopart.com/LP0805A2150ASTR-AVX-datasheet-11552210.pdf
+$ENDCMP
+#
+$CMP LP1206A0512ANTR-500
+D Low Pass Filter, DC to 512MHz, 50 Ohm, 1206
+K low pass filter
+F https://gr.mouser.com/datasheet/2/40/lp1206-779208.pdf
+$ENDCMP
+#
+$CMP LP5912-0.9
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 0.9V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.0
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.1
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.1V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.2
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.5
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.5V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-1.8
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 1.8V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-2.5
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 2.5V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-2.8
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 2.8V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-3.0
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 3.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-3.3
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LP5912-5.0
+D 500-mA Ultra-Low-Noise Low-IQ LDO, 5.0V, WSON-6
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5912.pdf
+$ENDCMP
+#
+$CMP LT1807xMS8
+D 325MHz, Single/Dual, Rail-to-Rail Input and Output, Low Distortion,Low Noise Precision Op Amps
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18067fc.pdf
+$ENDCMP
+#
+$CMP LT1807xS8
+D 325MHz, Single/Dual, Rail-to-Rail Input and Output, Low Distortion,Low Noise Precision Op Amps
+K dual opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18067fc.pdf
+$ENDCMP
+#
+$CMP LT3461AES6TRPBF
+D 3MHz Step-Up DC/DC Converters with Integrated Schottky in ThinSOT
+K DC/DC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3461afa.pdf
+$ENDCMP
+#
+$CMP LTC4411
+D Linear Technology  2.6A Low Loss Ideal Diode
+K DIODE
+F http://cds.linear.com/docs/en/datasheet/4411fa.pdf
+$ENDCMP
+#
+$CMP LTCC-Balun-04Pins
+D Multilayer Balun
+K Balun
+F ~
+$ENDCMP
+#
+$CMP LTCC-Balun-06Pins
+D Multilayer Balun
+K Balun
+F ~
+$ENDCMP
+#
+$CMP MABA-011094
+D 5 -1225MHz 1:1 RF Transformer, Balanced to Balanced
+K Macom RF Transformer
+F https://gr.mouser.com/datasheet/2/249/MABA-011094-1489203.pdf
+$ENDCMP
+#
+$CMP MAX1510
+D Low-Voltage DDR Linear Regulator
+K Regulator, DDR, Linear
+F https://datasheets.maximintegrated.com/en/ds/MAX1510-MAX17510.pdf
+$ENDCMP
+#
+$CMP MAX17261METD+
+D 5.1μA Multi-Cell Fuel Gauge with ModelGauge m5 EZ, 14-TDFN
+K Battery management fuel gauge
+F https://datasheets.maximintegrated.com/en/ds/MAX17261.pdf
+$ENDCMP
+#
+$CMP MAX17261MEWL+
+D 5.1μA Multi-Cell Fuel Gauge with ModelGauge m5 EZ, WLP-9
+K Battery management fuel gauge
+F https://datasheets.maximintegrated.com/en/ds/MAX17261.pdf
+$ENDCMP
+#
+$CMP MAX17510
+D Low-Voltage DDR Linear Regulator
+K Regulator, DDR, Linear
+F https://datasheets.maximintegrated.com/en/ds/MAX1510-MAX17510.pdf
+$ENDCMP
+#
+$CMP MAX6037xAUKxx
+D Low-Power, Fixed and Adjustable Reference with Shutdown
+K Voltage regulator, reference
+F https://datasheets.maximintegrated.com/en/ds/MAX6037-MAX6037C.pdf
+$ENDCMP
+#
+$CMP MAX6497
+D Overvoltage Protection Switch Controllers with an External MOSFET
+K overvoltage, controller
+F https://datasheets.maximintegrated.com/en/ds/MAX6495-MAX6499.pdf
+$ENDCMP
+#
+$CMP MAX6498
+D Overvoltage Protection Switch Controllers with an External MOSFET
+K overvoltage, controller
+F https://datasheets.maximintegrated.com/en/ds/MAX6495-MAX6499.pdf
+$ENDCMP
+#
+$CMP MMZ09332B
+D High Efficiency/Linearity Amplifier
+K RF
+F https://www.mouser.com/ds/2/302/a-1126961.pdf
+$ENDCMP
+#
+$CMP MQ-131
+D O3 Sensor
+K GAS Sensor
+F http://www.sensorsportal.com/DOWNLOADS/MQ131.pdf
+$ENDCMP
+#
+$CMP MQ-7
+D CO Sensor
+K GAS sensor
+F https://www.pololu.com/file/0J313/MQ7.pdf
+$ENDCMP
+#
+$CMP MS-156C3
+D Subminiature Coaxial Switch 1.35mm High, DC to 11GHz
+K  Coaxial Switch RF
+F https://www.hirose.com/product/document?clcode=CL0358-0340-0-00&productname=MS-156C3&series=MS-156C&documenttype=2DDrawing&lang=en&documentid=0000954375
+$ENDCMP
+#
+$CMP MT41K128M16JT-125_K
+D DDR3L SDRAM, BGA-96
+K DDR3L SDRAM
+F https://www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/2gb_1_35v_ddr3l.pdf
+$ENDCMP
+#
+$CMP NTMFS5C673NL
+D N-MOSFET transistor, drain/source/gate
+K transistor NMOS N-MOS N-MOSFET
+F https://www.onsemi.com/pub/Collateral/NTMFS5C673NL-D.PDF
+$ENDCMP
+#
+$CMP PCA9540B
+D 2-channel I2C-bus multiplexer
+K I2C
+F https://www.nxp.com/docs/en/data-sheet/PCA9540B.pdf
+$ENDCMP
+#
+$CMP PE4259
+D UltraCMOS® RF switch
+K RF switch
+F https://www.psemi.com/pdf/datasheets/pe4259ds.pdf
+$ENDCMP
+#
+$CMP PQ9-Connector
+D Pocket Cube template for PQ9ISH format
+K PQ9 pocketcube
+F https://libre.space/pq9ish
+$ENDCMP
+#
+$CMP Pololu_Dual_MC33926
+D Dual MC33926 Motor Driver Carrier
+K MC33926 H-Bridge
+F https://www.pololu.com/product/1213
+$ENDCMP
+#
+$CMP QPL9057
+D 600-4200MHz, Ultra-Low Noise Flat Gain Amplifier, DFN-8
+K LNA low noise amplifier RF
+F https://www.qorvo.com/products/d/da006538
+$ENDCMP
+#
+$CMP RF5110G
+D 3V GSM POWER AMPLIFIER
+K RF Amplifier
+F https://www.qorvo.com/products/d/da000459
+$ENDCMP
+#
+$CMP RFFC2071
+D RF Synthesizer / VCO with Integrated RF Mixer, 30MHz to 2700MHz Mixer Frequency Range
+K RF Mixer RF Synthesizer
+F https://www.qorvo.com/products/p/RFFC2071
+$ENDCMP
+#
+$CMP RFFC5071
+D 85 to 4200 MHz RF Synthesizer / VCO with Integrated RF Mixer 30MHz to 6000MHz
+K RF Mixer RF Synthesizer
+F https://www.qorvo.com/products/p/RFFC5071
+$ENDCMP
+#
+$CMP RN
+D Resistor Network
+K resistors
+F https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C12.pdf
+$ENDCMP
+#
+$CMP SDINBDG4-8G
+D eMMC memory module http://www.szhcheng.com/EMMC%20.pdf
+K eMMC
+F https://datasheet.lcsc.com/lcsc/2006081112_SANDISK-SDINBDG4-8G_C577444.pdf
+$ENDCMP
+#
+$CMP SKY13351
+D 20 MHz-6.0 GHz GaAs SPDT Switch
+K RF Switch
+F http://www.skyworksinc.com/uploads/documents/SKY13350_385LF_201174I_Discontinued.pdf
+$ENDCMP
+#
+$CMP SKY13421-486LF
+D RF Switch, 0.1 to 3.0GHz, High Linearity, Broadband, DPDT, 2:1 Differential Switch
+K RF Switch,  DPDT
+F https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/701-800/SKY13421_486LF_201655E.pdf
+$ENDCMP
+#
+$CMP SKY13446
+D 0.1 to 6.0 GHz GaAs SPDT RF Switch
+K RF Switch
+F http://www.skyworksinc.com/uploads/documents/SKY13446_374LF_201843C.pdf
+$ENDCMP
+#
+$CMP SKY66292-11
+D 2300 to 2400 MHz High-Efficiency 4 W Power Amplifier
+K Power Amplifier
+F https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2601-2700/SKY66292_11_203282E.pdf
+$ENDCMP
+#
+$CMP SKY66294-11
+D 2000 to 2300 MHz High-Efficiency 4 W Power Amplifier
+K Power Amplifier
+F https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/2601-2700/SKY66294_11_203285E.pdf
+$ENDCMP
+#
+$CMP SN65HVD485EDR
+D Half-Duplex RS-485 Transceiver
+K RS485 transceiver
+F http://www.ti.com/lit/ds/symlink/sn65hvd485e.pdf
+$ENDCMP
+#
+$CMP SN65HVD72
+D SN65HVD7x 3.3-V Supply RS-485 With IEC ESD Protection
+K RS-485 tranceiver
+F http://www.ti.com/lit/ds/symlink/sn65hvd72.pdf
+$ENDCMP
+#
+$CMP SPV1040
+D MPPT step-up converter, input voltage range from 0.3 V to 5.5V.
+K MPPT
+F https://gr.mouser.com/datasheet/2/389/spv1040-974182.pdf
+$ENDCMP
+#
+$CMP Si1401EDH
+D Transistor P-MOSFET
+K pmos p-mos p-mosfet transistor
+F http://www.vishay.com/docs/70080/si1401ed.pdf
+$ENDCMP
+#
+$CMP Si4532DY
+D 3.9A Id, 30V Vds, Dual N and P Channel MOSFET, 65mOhm Ron, 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/SI/SI4532DY.pdf
+$ENDCMP
+#
+$CMP Si4542DY
+D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
+K Dual N-Channel P-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
+$ENDCMP
+#
+$CMP Si7252DP
+D 36.7A Id, 100V Vds, Dual TrenchFET MOSFET, SO-8
+K Dual TrenchFET N-Channel MOSFET
+F https://www.vishay.com/docs/62634/si7252dp.pdf
+$ENDCMP
+#
+$CMP TA0700B
+D SAW Filter, 2250MHz, 100MHz Bandwidth, 50Ohm, TST-DCC6
+K SAW Filter
+F https://www.taisaw.com/upload/product/TA0700B%20_Rev.1.0_.pdf
+$ENDCMP
+#
+$CMP TA0993A
+D SAW Filter, 2062.5MHz, 76MHz Bandwidth, 50Ohm, TST-DCC6
+K SAW Filter
+F http://www.taisaw.com/upload/product/TA0993A%20_Rev.1.0_.pdf
+$ENDCMP
+#
+$CMP TC74A0-3.3VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A0-3.3VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A0-5.0VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A0-5.0VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A1-3.3VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A1-3.3VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A1-5.0VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A1-5.0VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A2-3.3VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A2-3.3VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A2-5.0VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A2-5.0VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A3-3.3VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A3-5.0VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A3-5.0VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A4-3.3VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A4-3.3VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A4-5.0VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A4-5.0VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A5-3.3VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A5-3.3VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A5-5.0VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A5-5.0VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A6-3.3VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A6-3.3VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A6-5.0VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A6-5.0VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A7-3.3VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A7-3.3VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A7-5.0VAT
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TC74A7-5.0VCTTR
+D Tiny Serial Digital Thermal Sensor
+K Sensor
+F http://ww1.microchip.com/downloads/en/devicedoc/21462d.pdf
+$ENDCMP
+#
+$CMP TCST2103
+D Transmissive Optical Sensor with Phototransistor Output
+K Phototransistor
+F https://www.vishay.com/docs/81147/tcst2103.pdf
+$ENDCMP
+#
+$CMP TMP117
+D Temperature Sensor with I2C/SMBus Interface, –55°C to +150°C, WSON-6. DSBGA
+K temperature sensor i2c smbus
+F http://www.ti.com/lit/ds/symlink/tmp117.pdf
+$ENDCMP
+#
+$CMP TPS3870-Q1
+D Overvoltage Reset IC With Time Delay and Manual Reset, WSON-6
+K supply voltage supervisor
+F https://www.ti.com/lit/ds/symlink/tps3870-q1.pdf
+$ENDCMP
+#
+$CMP TPS55340PWPR
+D Integrated 5-A Wide Input Range Boost/SEPIC/Flyback DC/DC Regulator
+K DC/DC, Regulator
+F http://www.ti.com/lit/ds/symlink/tps55340.pdf
+$ENDCMP
+#
+$CMP TPS55340RTER
+D Integrated 5-A Wide Input Range Boost/SEPIC/Flyback DC/DC Regulator
+K DC/DC, Regulator
+F http://www.ti.com/lit/ds/symlink/tps55340.pdf
+$ENDCMP
+#
+$CMP TPS55340RTET
+D Integrated 5-A Wide Input Range Boost/SEPIC/Flyback DC/DC Regulator
+K DC/DC, Regulator
+F http://www.ti.com/lit/ds/symlink/tps55340.pdf
+$ENDCMP
+#
+$CMP TPS56339DDC
+D 4.5V to 24V Input, 3-A Output Synchronous Buck Converter, SOT-23-6
+K step-down dcdc voltage regulator
+F https://www.ti.com/lit/ds/symlink/tps56339.pdf
+$ENDCMP
+#
+$CMP TPS568230
+D 4.5V-17V Input, 8A Synchronous Step-Down SWIFT Converter, Adjustable Output, 400kHz/800kHz/1.2MHz Switching Frequency, Texas VQFN-18
+K switching buck converter step-down
+F https://www.ti.com/lit/ds/symlink/tps568230.pdf
+$ENDCMP
+#
+$CMP TPS62085
+D 3-A Step-Down Adjustable Converter With Hiccup Short-Circuit Protection In 2mm × 2mm VSON Package
+K DC-DC Buck Step-Down Regulator
+F http://www.ti.com/lit/ds/symlink/tps62085.pdf
+$ENDCMP
+#
+$CMP TPS62086
+D 3-A Step-Down 3.3V Converter With Hiccup Short-Circuit Protection In 2mm × 2mm VSON Package
+K DC-DC Buck Step-Down Regulator
+F http://www.ti.com/lit/ds/symlink/tps62085.pdf
+$ENDCMP
+#
+$CMP TPS62087
+D 3-A Step-Down 1.8V Converter With Hiccup Short-Circuit Protection In 2mm × 2mm VSON Package
+K DC-DC Buck Step-Down Regulator
+F http://www.ti.com/lit/ds/symlink/tps62085.pdf
+$ENDCMP
+#
+$CMP TPS62912
+D 3-V to 17-V, 2-A/3-A Low Noise and Low Ripple Buck Converter with Integrated Ferrite Bead Filter Compensation
+K DC-DC Buck Step-Down Regulator Low-Noise
+F https://www.ti.com/lit/ds/symlink/tps62913.pdf
+$ENDCMP
+#
+$CMP TPS62913
+D 3-V to 17-V, 2-A/3-A Low Noise and Low Ripple Buck Converter with Integrated Ferrite Bead Filter Compensation
+K DC-DC Buck Step-Down Regulator Low-Noise
+F https://www.ti.com/lit/ds/symlink/tps62913.pdf
+$ENDCMP
+#
+$CMP TPS63070RNM
+D 2-V to 16-V Buck-Boost Converter With 3.6-A Switch Current
+K DC-DC Buck-Boost
+F http://www.ti.com/lit/ds/symlink/tps63070.pdf
+$ENDCMP
+#
+$CMP TQP3M9036
+D 5-2000MHz, Ultra-Low Noise Flat Gain Amplifier, DFN-8
+K LNA low noise amplifier RF
+F https://www.qorvo.com/products/d/da005543
+$ENDCMP
+#
+$CMP TQP7M9106
+D 50 - 1500 MHz, 2 Watt High Linearity Amplifier, QFN24
+K Power Amplifier
+F https://www.qorvo.com/products/d/da005671
+$ENDCMP
+#
+$CMP VENUS838FLPx-L
+D high performance, low cost, single chip GPS receiver
+K GPS GNSS
+F http://navspark.mybigcommerce.com/content/Venus838FLPx-SPC_DS_v3.pdf
+$ENDCMP
+#
+$CMP XC7Z020CLG400
+D Zynq-7000 SoC
+K FPGA Zynq CLG400
+F https://www.xilinx.com/support/documentation/user_guides/ug865-Zynq-7000-Pkg-Pinout.pdf
+$ENDCMP
+#
+$CMP XLH536100.000000
+D XTAL OSC XO 100.0000MHZ HCMOS SMD
+K PLL, Low noise
+F https://www.idt.com/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet
+$ENDCMP
+#
+$CMP ZLLS500
+D 40V 0.7A Schottky diode, SOT-23
+K diode Schottky
+F https://www.diodes.com/assets/Datasheets/ZLLS500.pdf
+$ENDCMP
+#
+$CMP hrs-dm3cs
+D microSD Card socket
+K mircoSD
+F https://www.hirose.com/product/en/products/DM3/DM3CS-SF/
+$ENDCMP
+#
+#End Doc Library

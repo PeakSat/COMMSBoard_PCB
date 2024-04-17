@@ -1,0 +1,195 @@
+(footprint "Micrel_DFN-6L-1EP_1.25x1.95mm_P0.4mm_EP0.75x0.95"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Micrel DFN-6L footprint")
+	(tags "DFN-6L")
+	(property "Reference" "REF**"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "61041fd5-e23f-42c4-b335-cf2bc19ba593")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Micrel_DFN-6L-1EP_1.25x1.95mm_P0.4mm_EP0.75x0.95"
+		(at 0 12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3725589d-412d-4511-aa17-d7bbbf965afc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a7d57c4-9e38-4354-9b08-307ca9827abb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/PL123-02N-DC-to-200MHz-Inverting-1-2-Fanout-Buffer-DS20006402A.pdf"
+		(at 0 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f58c19c9-094d-483f-b675-04f47b659794")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Micrel DFN-6L footprint"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c3cee8c-7bde-46a6-8f3a-4a974d78b4b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -1)
+		(end -0.7 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a29ab4c-c53d-4cc3-9c39-6c9070a4e2f9")
+	)
+	(fp_line
+		(start 0.7 1)
+		(end 0.7 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a8e214a-235a-425a-bf67-e74218aa857b")
+	)
+	(fp_rect
+		(start -0.8 -1.4)
+		(end 0.8 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "20ac9781-4171-41fc-b8f1-7e53c788bc3f")
+	)
+	(fp_rect
+		(start -0.65 -1)
+		(end 0.65 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "58a67374-d7e1-4eb4-b87c-36200271ea9f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab0c5ae6-3449-4411-9f7e-f404100d3418")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4 1.05)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7bf0de56-5571-4c71-9858-d380ad1c4d59")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.05)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0d63eeeb-c6ef-4d96-bfe7-440a09a2a62c")
+	)
+	(pad "3" smd roundrect
+		(at 0.4 1.05)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "980ebb04-aa79-4bd6-87de-ba955149e801")
+	)
+	(pad "4" smd roundrect
+		(at 0.4 -1.05)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d6a5dae4-d282-42dc-97dc-62bc3e983c92")
+	)
+	(pad "5" smd roundrect
+		(at 0 -1.05)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "29cfd599-3de7-45db-bc4a-3210a3115c6c")
+	)
+	(pad "6" smd roundrect
+		(at -0.4 -1.05)
+		(size 0.2 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "97e6d7a4-9fb5-40ba-a315-a4bfb8b63969")
+	)
+	(pad "7" smd roundrect
+		(at 0 0)
+		(size 0.9 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_left)
+		(thermal_bridge_angle 45)
+		(uuid "b0279551-f1d7-4a75-a1e2-faa7dea81e6e")
+	)
+	(model "${LSF_KICAD_LIB}/lsf-kicad-lib.3dshapes/Micrel_DFN-6L-1EP_1.25x1.95mm_P0.4mm_EP0.75x0.95.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
