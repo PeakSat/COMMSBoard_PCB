@@ -3647,7 +3647,7 @@
     (property "Value" "SKY13421-486LF" (at 262.89 153.67 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "QFN14_SKY13421_SKY" (at 287.02 149.86 0)
+    (property "Footprint" "SKY13421-486LF:QFN14_SKY13421_SKY" (at 287.02 149.86 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "SKY13421-486LF" (at 285.75 147.32 0)

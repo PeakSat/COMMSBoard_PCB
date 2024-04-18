@@ -866,7 +866,7 @@
     (property "Value" "B1601" (at 223.52 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "B1601" (at 238.76 223.19 0)
+    (property "Footprint" "B16-01:B1601" (at 238.76 223.19 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://navspark.mybigcommerce.com/content/Orion_B16_DS.pdf" (at 238.76 323.19 0)
