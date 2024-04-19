@@ -2543,7 +2543,7 @@
     (property "Value" "RFShield_OnePiece" (at 49.53 99.0599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "satnogs-comms-lib:emi-shield-original" (at 33.02 100.33 0)
+    (property "Footprint" "Comms-EMI-Shield-Cut:emi-shield-original" (at 33.02 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 100.33 0)
