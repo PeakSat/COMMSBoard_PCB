@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.24,
-          "width": 0.24
+          "height": 0.585,
+          "width": 0.51
         },
         "silk_line_width": 0.153,
         "silk_text_italic": false,
@@ -56,7 +56,21 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|91858345|137141698|966533fc-2ac3-4b0e-8fb1-0d45721e77dd|cc337a82-173b-473b-b596-68b2fe1c05ca",
+        "zones_intersect|89042572|128560000|966533fc-2ac3-4b0e-8fb1-0d45721e77dd|cc337a82-173b-473b-b596-68b2fe1c05ca",
+        "zones_intersect|89059420|128560000|cc337a82-173b-473b-b596-68b2fe1c05ca|2221a0da-728d-46ec-a8ab-f5c0c68e38ed",
+        "zones_intersect|91858163|137160000|cc337a82-173b-473b-b596-68b2fe1c05ca|2221a0da-728d-46ec-a8ab-f5c0c68e38ed",
+        "zones_intersect|91858219|137160000|966533fc-2ac3-4b0e-8fb1-0d45721e77dd|cc337a82-173b-473b-b596-68b2fe1c05ca",
+        "zones_intersect|91858345|137141698|966533fc-2ac3-4b0e-8fb1-0d45721e77dd|cc337a82-173b-473b-b596-68b2fe1c05ca",
+        "zones_intersect|91869225|135533981|2221a0da-728d-46ec-a8ab-f5c0c68e38ed|cc337a82-173b-473b-b596-68b2fe1c05ca",
+        "zones_intersect|91900000|131010000|2221a0da-728d-46ec-a8ab-f5c0c68e38ed|cc337a82-173b-473b-b596-68b2fe1c05ca",
+        "zones_intersect|91900000|131060000|966533fc-2ac3-4b0e-8fb1-0d45721e77dd|cc337a82-173b-473b-b596-68b2fe1c05ca",
+        "zones_intersect|95412822|137160000|966533fc-2ac3-4b0e-8fb1-0d45721e77dd|cc337a82-173b-473b-b596-68b2fe1c05ca",
+        "zones_intersect|95412822|137160000|cc337a82-173b-473b-b596-68b2fe1c05ca|2221a0da-728d-46ec-a8ab-f5c0c68e38ed",
+        "zones_intersect|95450000|128560000|cc337a82-173b-473b-b596-68b2fe1c05ca|2221a0da-728d-46ec-a8ab-f5c0c68e38ed",
+        "zones_intersect|95450000|128560000|cc337a82-173b-473b-b596-68b2fe1c05ca|966533fc-2ac3-4b0e-8fb1-0d45721e77dd"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
