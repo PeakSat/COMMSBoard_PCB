@@ -5449,8 +5449,8 @@
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (pin "1" (uuid 55d517d7-0724-4b0f-a6b0-4888b2184999))
-    (pin "3" (uuid 78b81c60-8d67-4585-b474-705c1a04c843))
     (pin "2" (uuid 84831c72-d346-4f64-8634-22bb68fc0179))
+    (pin "3" (uuid 78b81c60-8d67-4585-b474-705c1a04c843))
     (pin "4" (uuid 79f62e91-4a14-4b9d-8671-58b3489c908f))
     (instances
       (project "satnogs-comms"

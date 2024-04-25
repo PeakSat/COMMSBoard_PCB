@@ -1150,8 +1150,8 @@
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "1" (uuid 7e9a2c49-6abf-4963-a79c-c4921e94115e))
-    (pin "3" (uuid c4c93a5e-416c-45bf-aca0-52aaf8b22072))
     (pin "2" (uuid 7c1efac1-68c0-4cca-9d15-c2caf1efda0a))
+    (pin "3" (uuid c4c93a5e-416c-45bf-aca0-52aaf8b22072))
     (instances
       (project "satnogs-comms"
         (path "/e315fb88-f764-4ec7-a92b-006692d5e26f/00000000-0000-0000-0000-00005e50dec8/00000000-0000-0000-0000-00005ebaad2d"
