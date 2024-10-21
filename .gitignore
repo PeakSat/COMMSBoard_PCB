@@ -32,4 +32,4 @@ fp-info-cache
 *.kicad_prl
 *-backups/
 \#auto_saved_files#
-
+simulations/*
