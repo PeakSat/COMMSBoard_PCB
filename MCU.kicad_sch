@@ -11,6 +11,145 @@
 		(comment 1 "CERN OHL version 1.2")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -5779,7 +5918,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 71.12 59.69)
+			(xy 67.31 59.69) (xy 63.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6616,6 +6755,16 @@
 			(type default)
 		)
 		(uuid "653a2c6e-68a5-467f-8134-c53a1f07d1c8")
+	)
+	(wire
+		(pts
+			(xy 74.93 59.69) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686f5c10-9f64-479f-9dcb-e13407067994")
 	)
 	(wire
 		(pts
@@ -7809,16 +7958,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 59.69) (xy 90.17 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5f54f7e-d50f-4153-889a-9fbe0c2f968f")
-	)
-	(wire
-		(pts
 			(xy 250.19 60.96) (xy 250.19 64.77)
 		)
 		(stroke
@@ -8048,6 +8187,18 @@
 		(uuid "fdf810ae-38c2-4017-b64c-c44007091c74")
 	)
 	(rectangle
+		(start 43.688 30.226)
+		(end 64.77 40.386)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7bd46734-abc8-44a2-b5e8-97dee3f9bc38)
+	)
+	(rectangle
 		(start 13.97 15.24)
 		(end 185.42 223.52)
 		(stroke
@@ -8105,6 +8256,16 @@
 			(justify left bottom)
 		)
 		(uuid "3ea852eb-a8a1-49bd-bc30-db7d27869b4a")
+	)
+	(text "MCU BOOT Select"
+		(exclude_from_sim no)
+		(at 53.848 28.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e5e92ed-07cb-41f4-b657-1dacd6bd58a1")
 	)
 	(text "NAND"
 		(exclude_from_sim no)
@@ -8262,6 +8423,17 @@
 		)
 		(uuid "945b482c-3dca-442a-b871-9842ee27c9e3")
 	)
+	(label "BOOT0"
+		(at 53.34 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98a44892-d815-44a6-8e37-aecd79bb9426")
+	)
 	(label "MCU_MMC_CMD"
 		(at 86.36 125.73 180)
 		(fields_autoplaced yes)
@@ -8272,6 +8444,17 @@
 			(justify right bottom)
 		)
 		(uuid "a26d4cd6-ebcd-4f23-9ce5-fec244b6e24b")
+	)
+	(label "BOOT0"
+		(at 80.01 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a84bb76a-439c-416c-a92e-720e160e5b63")
 	)
 	(label "MCU_MMC_D1"
 		(at 299.72 78.74 180)
@@ -8618,6 +8801,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_D"
+		(shape input)
+		(at 53.34 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcc0aa66-83a6-40d6-bf56-93ea2765c928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.2638 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9449,7 +9654,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 78.74 59.69 90)
+		(at 71.12 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9457,7 +9662,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e5d20d7")
 		(property "Reference" "R406"
-			(at 86.36 58.42 90)
+			(at 78.74 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9466,7 +9671,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 85.09 60.96 90)
+			(at 77.47 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +9680,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 78.74 61.468 90)
+			(at 71.12 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 59.69 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 59.69 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9707,7 @@
 			)
 		)
 		(property "PartNumber" "CRCW040210K0FKEDC"
-			(at 78.74 59.69 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,7 +12417,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 59.69 270)
+		(at 63.5 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12220,7 +12425,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f56f9a6")
 		(property "Reference" "#PWR0418"
-			(at 64.77 59.69 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,7 +12434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 59.69 90)
+			(at 58.42 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12237,7 +12442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 59.69 0)
+			(at 63.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12246,7 +12451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 59.69 0)
+			(at 63.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12255,7 +12460,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 59.69 0)
+			(at 63.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14693,6 +14898,77 @@
 			(project "satnogs-comms"
 				(path "/e315fb88-f764-4ec7-a92b-006692d5e26f/00000000-0000-0000-0000-00005e50dec6"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 58.42 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feae5085-fd76-4d34-9e80-cb408db5b6ba")
+		(property "Reference" "J3"
+			(at 60.96 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 60.96 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f914135b-4033-408e-9a77-94e8157e116a")
+		)
+		(pin "1"
+			(uuid "78da1192-b4da-4905-84bd-bf61b4d1e849")
+		)
+		(instances
+			(project "satnogs-comms"
+				(path "/e315fb88-f764-4ec7-a92b-006692d5e26f/00000000-0000-0000-0000-00005e50dec6"
+					(reference "J3")
 					(unit 1)
 				)
 			)
