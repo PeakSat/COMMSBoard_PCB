@@ -5668,10 +5668,6 @@
 		(uuid "93c96a4b-e6c8-44cf-b02b-216adabb1b26")
 	)
 	(no_connect
-		(at 137.16 105.41)
-		(uuid "9a06c4d0-836b-43e0-857c-0bc567fe5891")
-	)
-	(no_connect
 		(at 240.03 91.44)
 		(uuid "a5de6c3b-15c4-42d6-884e-57cc5dc4ca9a")
 	)
@@ -8465,6 +8461,28 @@
 		(uuid "49bc1320-8b57-4559-a816-e565bca7d68a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.5948 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTDO-SWOTRACE"
+		(shape output)
+		(at 137.16 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a7c7b04-5678-4a93-ac27-ae5f9d07c921")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.3357 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
